@@ -1,0 +1,104 @@
+.app {
+  background: #f9fbfd;
+  padding: 30px;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-list {
+  background: #e9e8e8;
+  padding: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin: 0 auto;
+  width: 410px;
+  height: 60px;
+  background-color:#70256c;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header h1 {
+  margin: 10px;
+}
+.header p {
+  justify-content: right; 
+}
+
+
+form {
+  width: 400px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #e9e8e8;
+  border-radius: 0 0 4px 4px;
+  padding: 5px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.input {
+  width: 70%;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.submit {
+  background: 0 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #d3a8db;
+  color: #000;
+  position: relative;
+  height: 30px;
+  margin: 0;
+  width: 25%;
+  display: inline-block;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.todo button {
+  background: 0 0;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #000;
+  position: relative;
+  height: 30px;
+  margin:  0 2px;
+  padding: 0 4px;
+}
+
+button:hover {
+  background-color: #70256c;
+  color: #fff;
+}
+
+
+
+
